@@ -1,3 +1,5 @@
+import ErrorPage from "../../ErrorPage/ErrorPage";
+import Team from "../../Team/Team";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
 import ChooseUs from "../ChooseUs/ChooseUs";
@@ -10,6 +12,8 @@ const Home = () => {
             <Banner></Banner>
             <About></About>
             <Services></Services>
+            <ErrorPage></ErrorPage>
+            <Team></Team>
             <ChooseUs></ChooseUs>
             <Testimonial></Testimonial>
         </div>
